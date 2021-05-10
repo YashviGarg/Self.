@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/gradient_bg"
+tools:context=".CreateAccountActivity"
+android:gravity="center"
+android:orientation="vertical">
+<ProgressBar
+    android:id="@+id/progressBarCreateAccount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    style="?android:progressBarStyleLarge"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/usernameCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:maxLines="1"
+        android:layout_marginTop="16dp"
+        android:inputType="textPersonName"/>
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/emailCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/passwordCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:maxLines="1"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/createNewAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/create_account"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
+
+</LinearLayout>

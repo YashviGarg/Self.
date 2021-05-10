@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pattaya"
+            android:text="@string/self_gratitude_today"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="34sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card"
+            android:layout_below="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="18dp"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what_are_you_thinking_about_today"
+                android:textSize="20sp"/>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/startButton"
+            android:layout_below="@id/Card"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_started"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="self_gratitude_today">Self. Gratitude. Journal.</string>
+    <string name="app_name">Self.</string>
+    <string name="what_are_you_thinking_about_today">What are you thinking about, today?</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="textview">Yashvi</string>
+    <string name="textviewToday">Today</string>
+    <string name="title">Title</string>
+    <string name="your_thoughts">Your thoughts..</string>
+    <string name="save">Save</string>
+    <string name="add_item">Add item</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="gina">Gina</string>
+    <string name="thoughts">Thoughts..</string>
+    <string name="today">Today</string>
+    <string name="create">Create</string>
+    <string name="or">or</string>
+    <string name="login">Login</string>
+    <string name="if_empty_add_using_the_on_menu_bar">If empty, add using the +on menu bar.</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+</resources>

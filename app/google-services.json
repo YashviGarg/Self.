@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365381674644",
+    "project_id": "self-help-debc5",
+    "storage_bucket": "self-help-debc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365381674644:android:f83d3e0ced97517a413681",
+        "android_client_info": {
+          "package_name": "com.example.selfhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365381674644-j4fb557sddcluf5b4heq0q42jdfsuov9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzxOqq4Wd-_7ojk1KBd3arvYwzJATEKVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365381674644-j4fb557sddcluf5b4heq0q42jdfsuov9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
